@@ -1,0 +1,14 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.platform.runner.JUnitPlatform;
+
+
+
+@RunWith(JUnitPlatform.class)
+@SelectClasses(DemoTest1.class,JunitMessage.class){
+	
+}
+

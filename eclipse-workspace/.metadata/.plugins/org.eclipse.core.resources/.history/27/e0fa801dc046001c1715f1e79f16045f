@@ -1,0 +1,19 @@
+package newfeatures;
+
+import java.util.Optional;
+
+public class Optionaldemo {
+
+	public static void main(String[] args) {
+
+		/*String s = null;
+		Integer a = null;
+		System.out.println(s.length());*/ // throw Null Pointer Exception
+		
+		String s = new String();
+		Optional<String> chkNull = Optional.ofNullable(s);
+		
+		if(chkNull.isPresent)
+	}
+
+}

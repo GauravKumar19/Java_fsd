@@ -1,0 +1,16 @@
+package newfeatures;
+
+
+import java.util.List;
+import java.util.Arrays;
+
+// Cresting Consumer Action
+public class foreachdemo1 {
+
+	public static void main(String[] args) {
+
+		List<String> names = new Arrays.asList("John","Mike","Alex");
+		
+		
+
+}

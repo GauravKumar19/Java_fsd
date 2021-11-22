@@ -1,0 +1,9 @@
+package com.coforge.training.mockitodemo;
+
+public interface Idemo {
+	
+	String s = "Hello World" ;
+	
+	String greet();
+
+}

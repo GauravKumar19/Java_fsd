@@ -1,0 +1,24 @@
+package newfeatures;
+
+
+interface Parser{
+
+	default void parse(){
+    System.out.println("default Parsing logic");
+
+	} 
+}
+
+class textparser implements Parser{
+	
+	//this will inherit the default implementation of the parser
+}
+
+public class defaultmethoddemo2 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

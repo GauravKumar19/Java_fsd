@@ -1,0 +1,21 @@
+package com.coforge.training.mockitodemo;
+Import static org.mockito.Mockito.mock;
+import org.junit.Test;
+
+public class Helloworld {
+
+	@Test
+	public void greetTest() {
+		
+		Idemo d =  mock(Idemo.class); // create mock object if Idemo
+		
+		when(d.greet()).thenReturn(s);
+	}
+
+	private Idemo mock(Class<Idemo> class1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+}

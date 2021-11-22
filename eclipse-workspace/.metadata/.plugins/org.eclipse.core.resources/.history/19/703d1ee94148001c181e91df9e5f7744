@@ -1,0 +1,45 @@
+package testcode;
+
+import static org.junit.Assume.assumeTrue;
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Locale;
+import java.util.TimeZone;
+
+import org.junit.jupiter.api.Test;
+
+import businesscode.Scheduleservice;
+
+class ScheduleserviceTest {
+// assuming current Time zone is IST.....then only test should continue
+	@Test
+	void testDoSchedule() {
+		
+		TimeZone tzone = TimeZone.getDefault();
+		assumeTrue(tzone.getDisplayName().equals("India Standard Time"));
+	
+		//test DoSchedule method
+		
+		Scheduleservice ss = new Scheduleservice();
+		assertTrue(ss.doSchedule());
+	}
+
+	@Test
+	public void doScheduleLocaleNonUS() {
+
+	// Assume that the current locale is US
+	Locale currentLocale = Locale.getDefault();
+	assumeTrue(currentLocale.equals(Locale.english));
+
+	// Test doSchedule method
+	Scheduleservice scheduleService = new Scheduleservice();
+	assertTrue(scheduleService.doSchedule());
+
+	}
+	
+	@Test
+	void testBackupCalendar() {
+		fail("Not yet implemented");
+	}
+
+}

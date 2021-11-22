@@ -1,0 +1,13 @@
+package newfeatures;
+
+public class defaultmethoddemo {
+
+	public static void main(String[] args) {
+		
+		vehicle car = new car("BMW");
+		
+		System.out.println(car.getBrand();)
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package testcode;
+/*[10:41] Rajshekar (Trainer)
+@ParameterizedTest annotation is used for Parameterized tests make it possible to run a test multiple times 
+with different arguments.we must declare at least one source that will provide the arguments for each invocation 
+and then consume the arguments in the test method.
+ * 
+ */
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class myutilsJunit5Test {
+
+	@Test
+	void testAdd() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsPalindrome() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMultiply() {
+		fail("Not yet implemented");
+	}
+
+}

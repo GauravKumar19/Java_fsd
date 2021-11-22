@@ -1,0 +1,11 @@
+package Streamdemo;
+
+public class Streamexample1 {
+
+	public static void main(String[] args) {
+
+		Integer [] marks = {10,20,50,60,70,};
+		
+	}
+
+}

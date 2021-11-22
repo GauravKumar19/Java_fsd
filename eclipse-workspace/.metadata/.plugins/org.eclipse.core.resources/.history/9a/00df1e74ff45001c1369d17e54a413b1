@@ -1,0 +1,18 @@
+package newfeatures;
+
+class test //instance class
+	{
+		void display() //instance method
+		{
+			
+			System.out.println("i am in instance method");
+		}
+	}
+public class methodreferencedemo1 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

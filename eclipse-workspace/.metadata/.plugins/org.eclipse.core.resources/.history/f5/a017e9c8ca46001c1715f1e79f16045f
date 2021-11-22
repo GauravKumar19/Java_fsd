@@ -1,0 +1,22 @@
+package Streamdemo;
+
+import java.util.stream.Stream;
+
+public class Streamexample1 {
+
+	public static void main(String[] args) {
+
+		Integer [] marks = {10,20,50,60,70,};
+		
+		//Build streams form arrays
+		Stream<Integer> stream = Stream.of(marks);
+		
+		stream.forEach(i->System.out.println(i));
+		
+		//Build stream from collection
+	
+		List<Integer> grades = new ArrayList<Integer>();
+		stream.forEach(i->if);
+	}
+
+}

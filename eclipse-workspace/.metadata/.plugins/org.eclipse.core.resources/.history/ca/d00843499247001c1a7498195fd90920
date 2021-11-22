@@ -1,0 +1,44 @@
+package testcode;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+//JUnit test demonstrate of various Annotations
+public class AnnotationsTest {
+
+	private ArrayList<String> list;
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("Using @BeforeClass , executed before all test cases ");
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		System.out.println("Using @AfterClass ,executed after all test cases");
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		list = new ArrayList<String>();
+		System.out.println("Using @Before annotations ,executed before each test cases ");
+
+
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

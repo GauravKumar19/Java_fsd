@@ -1,0 +1,48 @@
+package newfeatures;
+
+import java.util.*;
+
+/* 
+ * forEach() Method In Iterable Interface
+Java 8 has introduced a “forEach” method in the interface java.lang.Iterable that can iterate over the elements in the collection. 
+“forEach” is a default method defined in the Iterable interface. It is used by the Collection classes that extend the Iterable interface to iterate elements.
+The “forEach” method takes the Functional Interface as a single parameter i.e. you can pass Lambda Expression as an argument.
+ */
+public class foreachdemo {
+
+	public static void main(String[] args) {
+		
+		List<String> lang = new ArrayList<String>();
+	
+	lang.add("Java");
+	lang.add("Python");
+	lang.add("Scala");
+	lang.add("HTML");
+	lang.add("C++");
+	lang.add("Jquery");
+	
+	System.out.println("--------------------Programming Languages-------------");
+	
+	lang.forEach(i -> System.out.println(i));
+	
+	// i -- input parameter-- left hand side is of lambda operator
+	//SOP -  rigth hand side is method body
+	// lambda is basically is a anonymous method i.e method without name
+	
+	//declaring map of customer Integer is key value and String is name
+	Map<Integer,String> Cust = new HashMap<Integer,String>();
+	
+	//Adding elements into map 
+	Cust.put(101, "Alex");
+	Cust.put(101, "Ryan");
+	Cust.put(101, "Sofia");
+	Cust.put(101, "Jenna");
+	Cust.put(101, "Laxmi");
+	Cust.put(101, "Alok");
+	
+	System.out.println("------------------ Accoun No. & Name------------");
+	}
+	Cust.forEach((k,v)->System.out.println("Customer Id="+ k +"--> Customer Name ="+v));
+	
+	
+}

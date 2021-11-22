@@ -1,0 +1,11 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.platform.runner.JUnitPlatform;
+
+class AllUnitTest {
+
+@RunWith(JUnitPlatform.class)
+}

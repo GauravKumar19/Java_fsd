@@ -1,0 +1,14 @@
+package businesscode;
+
+import static java.lang.Math.*;
+public class StaticImportDemo {
+
+	public static void main(String[] args) {
+		
+		System.out.println(Math.sqrt(55));
+		System.out.println(Math.pow(10,2));
+		System.out.println(Math.abs(55));
+
+	}
+
+}

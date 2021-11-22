@@ -1,0 +1,12 @@
+package Streamdemo;
+
+import java.util.Arrays;
+
+public class StreamExample2 {
+
+	public static void main(String[] args) {
+
+		List<String> names = Arrays.asList("Jhonny","Mitchel","Tori","Dani");
+	}
+
+}

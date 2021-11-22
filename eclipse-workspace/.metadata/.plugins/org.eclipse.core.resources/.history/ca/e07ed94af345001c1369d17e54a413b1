@@ -1,0 +1,10 @@
+package newfeatures;
+
+public class lambdacomaparatordemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

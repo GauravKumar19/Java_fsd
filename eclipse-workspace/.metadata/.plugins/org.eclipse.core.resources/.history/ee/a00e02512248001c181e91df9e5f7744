@@ -1,0 +1,32 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+	private static List<Integer> vals;
+class MathutilJunit5Test {
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+
+		vals = List;
+	}
+
+	@Test
+	void testSum() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testPositive() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testNegative() {
+		fail("Not yet implemented");
+	}
+
+}

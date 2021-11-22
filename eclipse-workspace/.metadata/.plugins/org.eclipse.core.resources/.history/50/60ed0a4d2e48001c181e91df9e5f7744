@@ -1,0 +1,26 @@
+package testcode;
+/*
+ * 
+ */
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class myutilsJunit5Test {
+
+	@Test
+	void testAdd() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsPalindrome() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMultiply() {
+		fail("Not yet implemented");
+	}
+
+}

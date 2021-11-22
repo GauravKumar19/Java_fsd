@@ -1,0 +1,33 @@
+package newfeatures;
+
+
+interface Parser{
+
+	default void parse(){
+    System.out.println("default Parsing logic");
+
+	} 
+}
+
+class textparser implements Parser{
+	
+	//this will inherit the default implementation of Parse
+	
+}
+
+class XMLParser implements Parser{
+	
+	public void parse(){
+	    System.out.println("default Parsing logic");
+
+		} 
+}
+
+public class defaultmethoddemo2 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

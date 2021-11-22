@@ -1,0 +1,21 @@
+package newfeatures;
+
+import java.util.Scanner;
+
+// java program to encrypt & decrypt
+public class Base64demo {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+		
+		String username, password;
+		
+		System.out.println("*******Welcome to coforge technologies********");
+		System.out.println("Enter our password");
+		
+		username = s.next();
+		System.out.println();
+	}
+
+}

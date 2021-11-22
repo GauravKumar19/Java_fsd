@@ -1,0 +1,9 @@
+package newfeatures;
+
+public interface vehicle {
+
+	//By Default all are abstract methods
+	String getBrand();
+	String speedUp();
+	String slowDown();
+}

@@ -1,0 +1,12 @@
+package Streamdemo;
+
+public class StreamExample5 {
+
+	public static void main(String[] args) {
+
+		//Limit Function
+		Stream<Integers> evenInfiniteStream = Stream.iterate(0,n->n+2)
+
+	}
+
+}

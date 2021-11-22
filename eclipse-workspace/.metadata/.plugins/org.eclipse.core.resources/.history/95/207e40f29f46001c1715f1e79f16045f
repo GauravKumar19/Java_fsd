@@ -1,0 +1,39 @@
+package newfeatures;
+
+//java 8 allows to add functionality to interfaces
+interface Parser{
+
+	default void parse(){
+    System.out.println("default Parsing logic");
+
+	} 
+}
+
+class textparser implements Parser{
+	
+	//this will inherit the default implementation of Parse
+	public void parse(){
+	  System.out.println(" Parsing text Files");
+	}
+}
+class XMLParser implements Parser{
+	
+	//Overridden method
+	public void parse(){
+	    System.out.println(" Parsing XML Files");
+
+		} 
+}
+
+public class defaultmethoddemo2 {
+
+	public static void main(String[] args) {
+		
+		Parser p = new textparser(); //Up casting
+		p.parse();// invoke default method in interface
+		
+		p=new XMLParser();
+		p.parse();
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.coforge.training.mockitodemo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import static org.mockito.Mockito.spy;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class MockitoSpyTest {
+
+	
+	List<String> list;
+	List<String> listSpy;
+	
+	@BeforeEach
+	void setup() throws Exception{
+		
+		list = new ArrayList<String>();
+		
+		listSpy = spy(list);
+	}
+	
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

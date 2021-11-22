@@ -1,0 +1,23 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.TimeZone;
+
+import org.junit.jupiter.api.Test;
+
+class ScheduleserviceTest {
+
+	@Test
+	void testDoSchedule() {
+		
+		TimeZone tzone = TimeZone.getDefault();
+		assumeTrue(tzone.getDisplayName().equals("Kolkata/Asia"));
+	}
+
+	@Test
+	void testBackupCalendar() {
+		fail("Not yet implemented");
+	}
+
+}

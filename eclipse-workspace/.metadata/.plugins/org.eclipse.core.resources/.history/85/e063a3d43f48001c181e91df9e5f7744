@@ -1,0 +1,31 @@
+package testcode;
+
+import static org.junit.Assume.assumeTrue;
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.TimeZone;
+
+import org.junit.jupiter.api.Test;
+
+import businesscode.Scheduleservice;
+
+class ScheduleserviceTest {
+
+	@Test
+	void testDoSchedule() {
+		
+		TimeZone tzone = TimeZone.getDefault();
+		assumeTrue(tzone.getDisplayName().equals("Kolkatta/India"));
+	
+		//test DoSchedule method
+		
+		Scheduleservice ss = new Scheduleservice();
+		assertTrue(ss.doSchedule());
+	}
+
+	@Test
+	void testBackupCalendar() {
+		fail("Not yet implemented");
+	}
+
+}

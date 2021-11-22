@@ -1,0 +1,39 @@
+package com.coforge.training.mockitodemo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class MathApplicationTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testSetCalcService() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAdd() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSubtract() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiply() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivide() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.coforge.training.mockitodemo;
+
+public class Helloworld {
+
+	public void greetTest() {
+		
+	}
+}

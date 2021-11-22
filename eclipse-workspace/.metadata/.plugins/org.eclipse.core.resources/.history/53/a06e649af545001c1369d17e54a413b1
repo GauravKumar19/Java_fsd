@@ -1,0 +1,12 @@
+package newfeatures;
+
+//pojo class
+public class Student {
+
+int rollnumber;
+String name;
+double marks;
+
+}
+
+

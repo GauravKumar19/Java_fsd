@@ -1,0 +1,16 @@
+package com.coforge.training.mockitodemo;
+
+import org.junit.Test;
+
+public class Helloworld {
+
+	@Test
+	public void greetTest() {
+		
+		Idemo d =  mock(Idemo.class); // create mock object if Idemo
+		
+		when(d.greet()).
+	}
+
+
+}

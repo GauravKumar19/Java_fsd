@@ -1,0 +1,13 @@
+package businesscode;
+
+public class StaticImportDemo {
+
+	public static void main(String[] args) {
+		
+		System.out.println(Math.sqrt(55));
+		System.out.println(Math.pow(5,5));
+		System.out.println(Math.abs(55));
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package newfeatures;
+
+// program to demo method reference to an instance method of a class
+@FunctionalInterface
+interface item{
+	void sum(int x, int y) {
+		
+	}
+}
+class calculation{
+	
+	void addition(int a, int b) {
+		System.out.println("The Addition is:"+(a+b));
+	}
+}
+public class methodreferencedemoclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

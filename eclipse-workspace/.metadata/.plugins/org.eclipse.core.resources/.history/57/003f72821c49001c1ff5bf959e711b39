@@ -1,0 +1,23 @@
+package com.coforge.training.mockitodemo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class MockitoSpyTest {
+
+	
+	List<String> list;
+	
+	@BeforeEach
+	void setup() throws Exception{
+		
+	}
+	
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

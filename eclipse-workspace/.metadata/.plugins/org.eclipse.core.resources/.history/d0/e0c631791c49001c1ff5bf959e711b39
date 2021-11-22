@@ -1,0 +1,14 @@
+package com.coforge.training.mockitodemo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MockitoSpyTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

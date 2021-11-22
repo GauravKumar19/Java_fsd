@@ -1,0 +1,35 @@
+package newfeatures;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class methodreferencedemo3 {
+
+	public static void main(String[] args) {
+
+		Order ord1 = new Order(1000,"GOOG.NS",12000.10,Order.Side.BUY);
+		Order ord2 = new Order(100,"FSSAI",6900.10,Order.Side.SELL);
+		
+		List<Order> orderbook = new ArrayList<Order>();
+		
+		orderbook.add(ord1);
+		orderbook.add(ord2);
+		orderbook.add(ord3);
+		
+		
+		//sort all orders based on quantity using lambda
+		
+		System.out.println("Before Sorting:"+orderbook);// invoke toString() method
+		Collections.sort(orderbook,(a,b)->Order.compareByQuantity(a, b));
+		System.out.println("After Sorting:"+orderbook);
+		
+		//sort all orders based on quantity using method reference
+		Collections.sort(orderbook,Order::compareByQuantity);
+		System.out.println("After Sorting:"+orderbook);
+
+		
+
+	}
+
+}

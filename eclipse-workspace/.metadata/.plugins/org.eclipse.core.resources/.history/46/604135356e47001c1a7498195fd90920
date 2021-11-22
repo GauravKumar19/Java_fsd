@@ -1,0 +1,16 @@
+package Streamdemo;
+
+/*Java Parallel Streams is a feature of Java 8 and higher, 
+ * meant for utilizing multiple cores of the processor.
+Normally any java code has one stream of processing, where it is executed sequentially.
+Whereas by using parallel streams, we can divide the code into multiple streams that are executed in parallel on separate cores and the final result is the combination of the individual outcomes.
+The order of execution, however, is not under our control.
+*/
+public class Parallelstreamdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

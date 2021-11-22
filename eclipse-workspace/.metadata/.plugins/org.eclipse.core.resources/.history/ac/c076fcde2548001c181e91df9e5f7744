@@ -1,0 +1,46 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import businesscode.Colorbag;
+
+class Colorbagjumit5Test {
+
+	private Colorbag colorBag;
+	
+	@BeforeEach
+	void setUp() throws Exception {
+		
+		colorBag = new Colorbag();
+		colorBag.add("Red");
+	}
+
+	@Test
+	void testAdd() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testRemove() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testToList() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testContains() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSize() {
+		fail("Not yet implemented");
+	}
+
+}

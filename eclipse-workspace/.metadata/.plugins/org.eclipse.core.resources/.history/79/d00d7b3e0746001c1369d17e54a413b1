@@ -1,0 +1,13 @@
+package newfeatures;
+
+public class methodreferencedemo3 {
+
+	public static void main(String[] args) {
+
+		Order ord1 = new Order(1000,"GOOG.NS",12000.10,Order.Side.BUY);
+		Order ord2 = new Order(100,"FSSAI",6900.10,Order.Side.SELL);
+		
+		List<Order> orderbook = new List<Order>
+	}
+
+}

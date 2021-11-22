@@ -1,0 +1,39 @@
+package com.coforge.training.mockitodemo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class RecordServiceTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testGetDatabase() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetDatabase() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetNetwork() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetNetwork() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSave() {
+		fail("Not yet implemented");
+	}
+
+}

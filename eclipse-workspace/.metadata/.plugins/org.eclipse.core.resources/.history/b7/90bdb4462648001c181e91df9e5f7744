@@ -1,0 +1,56 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import businesscode.Colorbag;
+
+class Colorbagjumit5Test {
+
+	private Colorbag colorBag;
+	
+	@BeforeEach
+	void setUp() throws Exception {
+		
+		colorBag = new Colorbag();
+		colorBag.add("Red");
+		colorBag.add("green");
+		colorBag.add("yellow");
+		colorBag.add("blue");
+		colorBag.add("Pink");
+		colorBag.add("Brown");
+	}
+
+	@Test
+	@DisplayName("Added color should be in bag")
+	void testAdd() {
+
+		var newcolor = "Aqua";
+		colorBag.add(newcolor);
+		assertTrue(colorBag.contains(newcolor),"Faliure");
+	}
+
+	@Test
+	void testRemove() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testToList() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testContains() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSize() {
+		fail("Not yet implemented");
+	}
+
+}

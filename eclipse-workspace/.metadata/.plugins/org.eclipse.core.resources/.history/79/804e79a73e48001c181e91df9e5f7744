@@ -1,0 +1,19 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ScheduleserviceTest {
+
+	@Test
+	void testDoSchedule() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testBackupCalendar() {
+		fail("Not yet implemented");
+	}
+
+}

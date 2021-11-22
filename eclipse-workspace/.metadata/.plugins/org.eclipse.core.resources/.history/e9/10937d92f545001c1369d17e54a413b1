@@ -1,0 +1,19 @@
+package newfeatures;
+
+//pojo class
+public class Student {
+
+int rollnumber;
+String name;
+double marks;
+
+
+public Student(int rollnumber, String name, double marks) {
+
+this.rollnumber = rollnumber;
+this.name = name;
+this.marks = marks;
+}
+}
+
+

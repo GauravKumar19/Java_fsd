@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+    div{ 
+        box-sizing: border-box;
+        width: 100%;
+        float: center;
+        align-content: center;
+        align-items: left;
+    }
+       
+    form {   
+        margin: 0 auto;
+        width: 600px;
+    }
+    p{
+        width: 60px;
+        align-content: left;
+
+    }
+    </style>
+    </head>
+<body>
+    
+
+
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <div>
+    <form name="RegForm"  action="servlet1"  method="post">
+    
+        <p>Name: <input type="text" 
+                        size="65" name="Name" /></p>
+        <br />
+        <p>Address: <input type="text" 
+                           size="65" name="Address" /></p>
+        <br />
+        <p>E-mail: <input type="email" 
+                               size="65" name="EMail" /></p>
+        <br />
+        <p>Password: <input type="password" 
+                            size="65" name="Password" /></p>
+        <br />
+        <p>Mobile: <input type="number" 
+                             size="65" name="MobileNo" maxlength="10"/></p>
+        <br />
+  
+        
+           <span class="">SELECT YOUR COURSE</span>
+            <select type="text" value="" name="Course">
+                <option>Java</option>
+                <option>Dot Net</option>
+                <option>Python</option>
+                <option>Php</option>
+                <option></option>
+            </select>
+      
+        <br />
+        <br />
+          <input type="submit" value="Submit" name="Submit" />
+            <input type="reset" value="Clear" name="reset" />
+           
+        
+    </form>
+     </div>
+</body>
+</html>

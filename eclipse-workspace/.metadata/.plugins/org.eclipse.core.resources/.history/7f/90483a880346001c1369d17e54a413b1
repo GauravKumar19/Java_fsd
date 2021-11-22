@@ -1,0 +1,18 @@
+package newfeatures;
+
+// program to demo method reference to an instance method of a class
+
+class calculation{
+	
+	void addition() {
+		System.out.println("The Addition is:"+(a+b));
+	}
+}
+public class methodreferencedemoclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

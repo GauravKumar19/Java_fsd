@@ -1,0 +1,14 @@
+package newfeatures;
+
+public class Order {
+
+	public enum Side{ BUY, SELL };
+
+
+
+	private final int quantity;
+	private final String symbol;
+	private final double price;
+	private final Side side;
+
+}

@@ -1,0 +1,18 @@
+package newfeatures;
+
+/*
+ * 
+Java lambda expression can be used in the collection framework. It provides efficient and concise way to iterate, filter and fetch data.
+ */
+
+ 
+ 
+
+public class lambdacomaparatordemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

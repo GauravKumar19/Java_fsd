@@ -1,0 +1,17 @@
+package newfeatures;
+
+public class defaultmethoddemo {
+
+	public static void main(String[] args) {
+		
+		vehicle car = new car("BMW");
+		
+		System.out.println(car.getBrand());
+		System.out.println(car.speedup());
+		System.out.println(car.slowdown());
+		System.out.println(car.turnAlarmON());
+		System.out.println(car.turnAlarmOFF());
+
+	}
+
+}

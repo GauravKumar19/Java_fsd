@@ -1,0 +1,20 @@
+package testcode;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class JunitMessageTest {
+
+	 String message ="Java";
+	@Test
+	void testPrintMessage() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testPrintHiMessage() {
+		fail("Not yet implemented");
+	}
+
+}

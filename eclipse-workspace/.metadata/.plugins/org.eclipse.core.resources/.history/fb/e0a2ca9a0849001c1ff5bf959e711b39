@@ -1,0 +1,39 @@
+package com.coforge.training.mockitodemo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class PortfolioTester {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testGetStockservice() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetStockservice() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetStocks() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetStocks() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetMarketValue() {
+		fail("Not yet implemented");
+	}
+
+}
